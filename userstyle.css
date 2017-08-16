@@ -22,9 +22,8 @@ html
 }
 .inbody1-1
 {
-flex:1 2 40%;
+flex:1 1 50%;
 text-align: center;
-margin-left:-30px;
 }
 .inbody1-1 img
 {
@@ -34,12 +33,15 @@ margin-left:-30px;
 .userimg
 {
 	border-radius: 200%;
+	margin-left:-70px;
 }
 .inbody1-2
 {
-	flex:1 2 60%;
-	text-align: center;
-	margin-top:8px;
+	flex:1 1 50%;
+    display:flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-left:-80px;
 }
 .inbody1-2 li
 {
