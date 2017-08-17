@@ -107,31 +107,47 @@ text-align: center;
 	font-size:16px;
 	border:none;
 }
-.order-choose
+.order-total
 {
-	margin-top:-10px;
-	padding:0px;
+
+
 }
 .order-li
 {
+	height:35px;
 	list-style-type: none;
-	margin-left:-35px;
-}
-.inf-list
-{
 	border-bottom:1px solid rgba(170,113,196,0.13);
-	height:30px;
 }
+
 .order-a
 {
+	height:45px;
 	text-decoration: none;
-	font-size:14px;
-}
-.list-group-item:hover
-{
-	color:white;
-}
-a:hover
-{
+	display:block;
 	color:black;
+	margin-left:-33px;
+	padding-top:10px;
+}
+order-li img:hover
+{
+	background-color:rgba(152,100,206,0.13);
+}
+.order-a span{
+	disply:flex;
+	align-items: center;
+}
+.order-a:hover
+{
+	background-color:rgba(152,100,206,0.13);
+	color:rgba(36,119,196,1);
+	text-decoration: none;
+}
+.tb1
+{
+	float:right;
+	margin-right:30px;
+}
+.wz1
+{
+	margin-left:5px;
 }
