@@ -128,18 +128,15 @@ text-align: center;
 	margin-left:-33px;
 	padding-top:10px;
 }
-order-li img:hover
+.order-a span
 {
-	background-color:rgba(152,100,206,0.13);
-}
-.order-a span{
 	disply:flex;
 	align-items: center;
 }
 .order-a:hover
 {
-	background-color:rgba(152,100,206,0.13);
-	color:rgba(36,119,196,1);
+	background-color:rgba(83,97,53,0.21);
+	color:white;
 	text-decoration: none;
 }
 .tb1
