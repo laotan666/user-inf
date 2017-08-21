@@ -60,7 +60,6 @@ text-align: center;
 {
 	text-align: center;
 	font-size:16px;
-	font-family:"YouYan";
 }
 .order-list
 {
@@ -106,21 +105,17 @@ text-align: center;
 	display:flex;
 	margin-top:8px;
 }
-.order-content-z
+.order-number,.order-content-y,.order-content-z
 {
-	flex:1 1 50%;
+	flex:1 1 auto;
 	text-align: center;
 }
-.order-content-y
-{
-	flex:1 1 50%;
-	text-align: center;
-}
+
 .order-content-y button
 {
 	border:none;
 	font-size:14px;
-	background-color:rgba(170,113,196,0.13);
+	background-color:rgb(235,235,235);
 	width:60px;
 	height:30px;
 }
@@ -148,7 +143,7 @@ text-align: center;
 {
 	border:none;
 	font-size:14px;
-	background-color:rgba(170,113,196,0.13);
+	background-color:rgb(235,235,235);
 	width:60px;
 	height:30px;
 }
@@ -161,7 +156,6 @@ text-align: center;
 {
 	margin-top:-15px;
 }
-
 .order-li
 {
     display:flex;
